@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 1.2rem;
+  padding: 2rem;
+  margin: auto;
+  
+}
+.btn{
+  border-radius: 50%;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.btn:hover{
+  opacity: 0.4;
+}
+.add{
+  background-color: green;
+}
+.sub{
+  background-color: rgb(255, 0, 0);
+}
+.res{
+  background-color: rgb(255, 166, 0);
+  border-radius: 15px;
+  width: 5rem;
+}
+
+.count-title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3em;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+.alert{
+  color: white;
+  background-color: rgb(255, 0, 0);
+  padding: 1.2rem;
+  border-radius: 15px;
+}
+.green{
+  background-color: green ;
+}
+.red{
+  background-color: red;
+}
+.white{
+  background-color: rgb(4, 8, 84) ;
+}
+.rest-api{
+  margin: 1.2rem;
+}
+.btn.api{
+  width: 7rem;
+  height: 6rem;
+}
+.api{
+  margin: 1.5rem;
+}
+.users{
+  background-color: brown;
+}
+.comments{
+  background-color: gold;
+}
+.posts{
+  background-color: blue;
+  color: white;
+}
